@@ -6,7 +6,7 @@
 
 -1 час⠀⠀⠀⠀⠀⠀0 локальное время⠀⠀⠀⠀⠀+2 часа
 
-![Интерфейс](../images/interface.png)
+![Интерфейс](images/interface.png)
 ## Сборка
 Для сборки приложения нужно склонировать [репозиторий](https://github.com/tokimiki4ika/Analog-Clock.git)
 

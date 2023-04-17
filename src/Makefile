@@ -8,7 +8,7 @@ all:
 
 dvi:
 	doxygen Doxyfile
-	cp -r ../images ../documentation
+	cp -r ../images ../documentation/html
 
 clean:
 	-rm -rf ../documentation build logs AnalogClock
