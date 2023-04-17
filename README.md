@@ -18,6 +18,7 @@
 - make
 - cmake
 - SDL2
+- OpenGL
 - g++
 - doxygen(для dvi)
 
