@@ -3,10 +3,12 @@
 all:
 	cmake . -B build
 	cd build && make
-	./build/AnalogClock
+	mv build/AnalogClock .
+	./AnalogClock
 
 dvi:
 	doxygen Doxyfile
+	cp -r ../images ../documentation
 
 clean:
 	-rm -rf ../documentation build logs AnalogClock
