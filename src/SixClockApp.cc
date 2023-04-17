@@ -13,7 +13,7 @@ void SixClockApp::show() {
   if (!window) {
     window =
         SDL_CreateWindow("Analog Clock", SDL_WINDOWPOS_UNDEFINED,
-                         SDL_WINDOWPOS_UNDEFINED, 700, 500, SDL_WINDOW_SHOWN);
+                         SDL_WINDOWPOS_UNDEFINED, x_size_window, y_size_window, SDL_WINDOW_SHOWN);
   }
 }
 

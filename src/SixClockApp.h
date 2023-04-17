@@ -14,6 +14,8 @@ class SixClockApp {
   int exec();  ///< Функция для запуска приложения
  protected:
   SDL_Window* window{};  ///< Поле окна приложения
+  constexpr static int x_size_window = 700, ///< Ширина окна
+  y_size_window = 500; ///< Высота окна
 };
 
 #endif  // ANALOG_CLOCK_SRC_SIX_CLOCK_APP_H_
