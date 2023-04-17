@@ -2,7 +2,7 @@
 #define ANALOG_CLOCK_SRC_ANALOG_CLOCK_H_
 
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_ttf.h>
+//#include <SDL2/SDL_ttf.h>
 
 #include <chrono>
 #include <string>
