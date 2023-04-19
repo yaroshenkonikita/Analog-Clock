@@ -1,8 +1,8 @@
 #ifndef ANALOG_CLOCK_SRC_ANALOG_CLOCK_H_
 #define ANALOG_CLOCK_SRC_ANALOG_CLOCK_H_
 
-#include <SDL2/SDL.h>
 #include <GL/gl.h>
+#include <SDL2/SDL.h>
 
 #include <chrono>
 #include <string>
@@ -50,8 +50,7 @@ class AnalogClock {
    * @param y_position Позиция y в окне
    * @param radius_clock Радиус циферблата
    */
-  void DrawClock(int x_position, int y_position,
-                 int radius_clock) const;
+  void DrawClock(int x_position, int y_position, int radius_clock) const;
 
   /**
    * @brief Оператор копирования
@@ -72,13 +71,11 @@ class AnalogClock {
   /**
    * @brief Отрисовка меток на периметре циферблата
    */
-  void DrawMarks(int x_position, int y_position,
-                 int radius_clock) const;
+  void DrawMarks(int x_position, int y_position, int radius_clock) const;
   /**
    * @brief Отрисовка стрелок на циферблате
    */
-  void DrawPointer(int x_position, int y_position,
-                   int radius_clock) const;
+  void DrawPointer(int x_position, int y_position, int radius_clock) const;
 
   int time_zone;  ///< Поле хранящее время добавления к циферблату
 };
